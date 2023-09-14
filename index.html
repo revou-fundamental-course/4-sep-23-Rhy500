@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>caculator persegi revou mini project </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/sytel.css"> 
+        <link rel="stylesheet" href="js/main.js">
+    </head>
+    <body>
+        <header>
+            <h1>Kakulator Hitung Persegi</h1>
+        </header>
+        <p>MENGHITUNG LUAS PERSEGI DAN KELILING PERSEGI</p>
+        <h1 class="luasPersegiH1"> Luas Persegi</h1>
+        <section class="luasInputSection">
+            <label for="Sisi Persegi">Sisi Persegi</label>
+            <input type="number" id="inputNumber" placeholder="Masukan Sisi" oninput="updateResult()">
+            <p id="displayText"></p>
+        <br />
+    
+        </section>
+        <section class="inputButtonSection">
+            <button type="button" onclick="hitung">Hitung</butto>
+            <button type="button" onclick="reset">Reset</button>
+        </section>
+
+        
+        <h1 class="kelilingPersegih1">Keliling Persegi</h1>
+        <section class="KelilingInputSection">
+            <label for="Sisi Persegi">Sisi Persegi</label>
+            <input type="number" id="inputNumber" placeholder="Masukan Sisi" oninput="updateNumber()">
+            <p id="displayNumber"></p>
+        </section>
+            <button type="button" onclick="hitung">Hitung</button>
+            <button type="button" onclick="reset">Reset</button>           
+
+    </body>
+</html>
+
+                            

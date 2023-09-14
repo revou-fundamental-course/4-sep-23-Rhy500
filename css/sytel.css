@@ -1,0 +1,73 @@
+
+body {
+    background-color: yellow;
+}
+
+header {
+    background-color: navy;
+    color: aqua;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.luasPersegiH1 {
+    background-color: navy;
+    color: aqua;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.luasInputSection {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
+
+.inputButtonSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4px;
+}
+
+button {
+    padding: 10px 16px;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #FFC436;
+    color: blue;
+}
+
+input:focus {
+    border-color: blueviolet;
+}
+
+button:hover {
+    background-color: red;
+}
+
+button:active {
+    transform: translateY(2px);
+}
+
+.kelilingPersegih1 {
+    background-color: navy;
+    color: aqua;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.KelilingInputSection {
+    display: flex;
+    flex-direction: column;
+    margin-top: 24px;
+}
